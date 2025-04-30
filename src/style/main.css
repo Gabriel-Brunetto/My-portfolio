@@ -24,6 +24,9 @@ ul{
 
 li{
     list-style: none;
+    .button{
+        background-color: rgb(202, 202, 202);
+    }
 }
 
 .button{
@@ -39,7 +42,6 @@ li{
         font-size: 20px;
     }
 }
-
 
 main{
     display: flex;
@@ -59,12 +61,12 @@ main{
         font-size: 10px;
     }
 }
+
 .anonymous{
     display: flex;
     margin-top: 50px; 
     justify-content: center;
 }
-
 
 .footer{
     display: flex;
