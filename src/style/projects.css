@@ -9,17 +9,22 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
     background-color: var(--color-top);
     height: 100px;
     top: 0;
     position: fixed;
+    
+}
+
+header nav{
+    display: flex;
 }
 
 ul{
     display: flex;
     gap: 20px;
     color:white;
-    
 }
 
 li{
@@ -28,6 +33,7 @@ li{
         background-color: rgb(202, 202, 202);
     }
 }
+
 
 .button{
     background-color: var(--color-top);
@@ -50,16 +56,18 @@ main{
     border-bottom: 2px solid rgba(0, 0, 0, 0.24);
 }
 
-.text{
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    display: flex;
-    font-size: 30px;
-    color: (--color-top);
-    p{
-        font-size: 10px;
-    }
+.main{
+    margin-top: 150px ;
+    padding: 20px;
+}
+
+.title{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.description{
+    width: 50%;
 }
 
 .anonymous{
