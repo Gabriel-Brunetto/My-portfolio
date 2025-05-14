@@ -1,69 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/src/style/root.css">
-    <link rel="stylesheet" href="/src/style/reset.css">
-    <link rel="stylesheet" href="/src/style/projects.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/src/style/root.css" />
+    <link rel="stylesheet" href="/src/style/reset.css" />
+    <link rel="stylesheet" href="/src/style/projects.css" />
     <title>Gabriel Brunetto</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav>
-            <ul>
-                <l1>
-                    <a class="button" href="/src/index.html">Home</a>
-                </l1>
-                <l1>
-                    <a class="button" href="pages/projects.html">Projects</a>
-                </l1>
-                <l1>
-                    <a class="button" href="https://github.com/Gabriel-Brunetto">Portfolio</a>
-                </l1>
-                <l1>
-                    <a class="button" href="/src/pages/contact.html">Contact</a>
-                </l1>
-            </ul>
-        </nav>
+      <nav>
+        <ul>
+          <l1>
+            <a class="button" href="/src/index.html">Home</a>
+          </l1>
+          <l1>
+            <a class="button" href="https://github.com/Gabriel-Brunetto"
+              >Portfolio</a
+            >
+          </l1>
+          <l1>
+            <a class="button" href="/src/pages/contact.html">Contact</a>
+          </l1>
+        </ul>
+      </nav>
     </header>
     <main>
-        <div class="text">
-            <div class="text-left">
-                <h1>QA</h1>
-                <p>Test Automation Developer</p>
-            </div>
-            <div class="anonymous">
-                <img src="/src/assets/images/image.png" alt="" height="600px">
-            </div>
-            <div class="text-right">
-                <h1>coder</h1>
-                <p>Front End Developer with some skills and QA</p>
-            </div>
+      <div class="main">
+        <div class="title">
+          <h1>ULA using Shenzhen I/O</h1>
         </div>
+        <div class="description">
+          <p>
+            I designed a custom 4-bit ALU (Arithmetic Logic Unit) in the game
+            Shenzhen I/O using multiple microcontrollers, each limited to two
+            input pins: P0 and P1. The ALU supports two operations: addition and
+            subtraction of 2-bit binary numbers. Inputs are provided via
+            switches, and two additional switches are used to select the
+            operation mode. Each controller is responsible for a specific part
+            of the operation, and one dedicated controller defines which
+            operation to execute. The results are passed through outputs X0 to
+            X3 and are displayed on LEDs connected to another controller. No
+            built-in registers like A, B, or CONTROL were used; instead, I used
+            only basic inter-controller connections and logic to simulate real
+            ALU behavior in a constrained environment.
+          </p>
+        </div>
+      </div>
     </main>
     <footer>
-        <div class="footer">
-            <div class="footer-info">
-                <span>2025 Gabriel Brunetto</span>
-            </div>
-            <div class="footer-links">
-                <ul>
-                    <li>
-                        <a href="" class="button">About</a>
-                    </li>
-                    <li>
-                        <a href="" class="button">Book</a>
-                    </li>
-                    <li>
-                        <a href="https://github.com/Gabriel-Brunetto" class="button">Portfolio</a>
-                    </li>
-                    <li>
-                        <a href="/src/pages/contact.html" class="button">Contact</a>
-                    </li>
-                </ul>
-            </div>
+      <div class="footer">
+        <div class="footer-info">
+          <span>Gabriel Brunetto</span>
         </div>
+      </div>
     </footer>
-</body>
+  </body>
 </html>
