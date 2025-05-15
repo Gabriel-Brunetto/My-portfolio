@@ -68,6 +68,18 @@ main{
     background-color: rgba(96, 97, 97, 0.589);
 }
 
+.anonymous {
+  animation: flutuar 2s ease-in-out infinite;
+  position: relative;
+}
+
+@keyframes flutuar {
+  0%   { top: 0; }
+  50%  { top: -10px; }
+  100% { top: 0; }
+}
+
+
 .text{
     width: 100%;
     align-items: center;
