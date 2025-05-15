@@ -68,6 +68,10 @@ main{
     justify-content: center;
 }
 
+img{
+    margin-left: 100px;
+}
+
 .footer{
     display: flex;
     background-color: rgb(202, 202, 202);
