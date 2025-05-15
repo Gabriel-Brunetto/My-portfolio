@@ -23,6 +23,7 @@ ul{
 
 li{
     list-style: none;
+    border: 2px solid white;
 }
 
 .button{
@@ -33,6 +34,7 @@ li{
     list-style: none;
     text-decoration: none;
     transition: 0.1s;
+    border: 2px solid white;
     &:hover{
         cursor: pointer;
         font-size: 20px;
@@ -58,6 +60,13 @@ main{
     align-items: center;
 }
 
+.container-form{
+    display: flex;
+    width: 800px;
+    padding: 20px;
+    background-color: rgba(96, 97, 97, 0.589);
+}
+
 .text{
     width: 100%;
     align-items: center;
@@ -68,12 +77,6 @@ main{
     p{
         font-size: 10px;
     }
-}
-
-.anonymous{
-    display: flex;
-    margin-top: 50px; 
-    justify-content: center;
 }
 
 form{
