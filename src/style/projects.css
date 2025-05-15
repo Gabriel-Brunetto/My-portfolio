@@ -59,6 +59,9 @@ main{
 
 .main{
     display: flex;
+    background-color: rgba(68, 67, 67, 0.555);
+    border: 2px solid white;
+    border-radius: 20px;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
