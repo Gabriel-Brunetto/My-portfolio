@@ -9,7 +9,6 @@ header{
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    background-color: var(--color-top);
     height: 100px;
     top: 0;
     position: fixed;
@@ -24,14 +23,11 @@ ul{
 
 li{
     list-style: none;
-    .button{
-        background-color: rgb(202, 202, 202);
-    }
 }
 
 .button{
-    background-color: var(--color-top);
     color: white;
+    background-color: transparent;
     padding: 5px;
     border: 0px;
     list-style: none;
@@ -45,7 +41,7 @@ li{
 
 main{
     display: flex;
-    background-color: rgb(189, 189, 189);
+    background-image: url(/src/assets/images/back.gif);
     height: 100%;
     border-bottom: 2px solid rgba(0, 0, 0, 0.24);
     justify-content: center;
@@ -56,7 +52,7 @@ main{
     width: 700px;
     height: 600px;
     border-radius: 20px;
-    background-color: rgba(199, 201, 201, 0.596);
+    background-color: rgba(30, 161, 212, 0.26);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -91,9 +87,11 @@ form{
 }
 
 input{
+    align-items: center;
     border: 2px solid black;
     border-radius: 5px;
     width: 300px;
+    height: 30px;
 }
 
 a{
@@ -105,15 +103,17 @@ a{
 }
 
 textarea{
+    display: flex;
     border: 2px solid black;
     width: 300px;
     height: 200px;
     border-radius: 5px;
+    padding: 10px;
 }
 
 .footer{
     display: flex;
-    background-color: rgb(202, 202, 202);
+    color: white;
     width: 100%;
     height: 50px;
     justify-content: space-around;
@@ -122,10 +122,3 @@ textarea{
     bottom: 0px;
 }
 
-.footer-links{
-    text-decoration: none;
-    a{
-        text-decoration: none;
-        color: black;
-    }
-}
