@@ -35,6 +35,8 @@ li{
     list-style: none;
     text-decoration: none;
     transition: 0.1s;
+    border: 2px solid white;
+    border-radius: 5px;
     &:hover{
         cursor: pointer;
         font-size: 20px;
