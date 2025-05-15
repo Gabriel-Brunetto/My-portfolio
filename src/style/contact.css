@@ -52,7 +52,7 @@ main{
     width: 700px;
     height: 600px;
     border-radius: 20px;
-    background-color: rgba(30, 161, 212, 0.26);
+    background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -109,6 +109,17 @@ textarea{
     height: 200px;
     border-radius: 5px;
     padding: 10px;
+}
+
+button{
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    background-color: rgb(26, 89, 97);
+    &:hover{
+        background-color: rgb(27, 27, 27);
+        cursor: pointer;
+    }
 }
 
 .footer{
