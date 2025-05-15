@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="/src/style/root.css" />
     <link rel="stylesheet" href="/src/style/reset.css" />
     <link rel="stylesheet" href="/src/style/contact.css" />
+    <link rel="icon" type="image/png" href="/src/assets/images/GBIcon.png" />
     <title>Gabriel Brunetto</title>
   </head>
   <body>
@@ -19,8 +20,12 @@
             <a class="button" href="/src/pages/projects.html">Projects</a>
           </l1>
           <l1>
-            <a class="button" href="https://github.com/Gabriel-Brunetto"
-              >Portfolio</a>
+            <a
+              class="button"
+              href="https://github.com/Gabriel-Brunetto"
+              target="_blank"
+              >Portfolio</a
+            >
           </l1>
           <l1>
             <a class="button" href="/src/pages/contact.html">Contact</a>
@@ -30,35 +35,14 @@
     </header>
     <main>
       <div class="main">
-        <form action="">
-          <input
-            type="text"
-            value=""
-            width="200px"
-            placeholder="Nome"
-            required
-          />
-          <input
-            type="text"
-            value=""
-            width="200px"
-            placeholder="Sobrenome"
-            required
-          />
-          <input
-            type="text"
-            value=""
-            width="200px"
-            placeholder="E-mail"
-            required
-          />
-          <textarea
-            name=""
-            id=""
-            placeholder="Digite sua mensagem aqui"
-            required
-          ></textarea>
-          <a href="">Enviar</a>
+        <form action="https://formsubmit.co/gabibq@yahoo.com.br" method="POST">
+          <input type="text" name="First Name" placeholder="Nome" required />
+          <input type="text" name="Last Name" placeholder="Sobrenome" required />
+          <input type="email" name="e-mail" placeholder="E-mail" required />
+          <textarea name="Message" placeholder="Digite sua mensagem aqui" required></textarea>
+          <input type="hidden" name="_captcha" value="true" />
+          <input type="hidden" name="_next" value="https://seusite.com/obrigado.html">
+          <button type="submit">Enviar</button>
         </form>
       </div>
     </main>
